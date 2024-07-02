@@ -1,12 +1,24 @@
+* {margin:0;
+padding:0;
+}
 :root{
---cor-pricipal:#FFFFFF;
---cor-secundaria:#C0C0C0;
---cor-do-botao:#167BF7;
---cor-de-fundo:#00030C;
+--cor-pricipal:#dfd4d5;
+--cor-secundaria:#057ee0;
+--cor-do-botao:#0b3ee7;
+--cor-de-fundo: rgb(185, 19, 97);
 
 }
 
 body{
-background-color:var(--cor-de-fundo) antiquewhite;
-
+background-color:var(--cor-de-fundo);
+color: #dfd4d5;
 }
+.principal{
+    background-image:url(img/D_NQ_NP_967812-MLB44702577321_012021-O.webp);
+}
+.container{
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
